@@ -32,7 +32,7 @@ int main()
             }
         }
 
-        if (!trouve) 
+        if (trouve == 0) 
         {
             tentatives++;
             printf("mauvaise lettre. tentatives restantes : %d\n", max_tentatives - tentatives);
